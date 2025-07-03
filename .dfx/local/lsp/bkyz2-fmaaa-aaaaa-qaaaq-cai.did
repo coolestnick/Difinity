@@ -1,0 +1,14 @@
+type Result = 
+ variant {
+   err: text;
+   ok: text;
+ };
+service : {
+  chatWithTools: (text) -> (Result);
+  getStats: () -> (record {
+                     requestCount: nat;
+                     timestamp: int;
+                   }) query;
+  health: () -> (text) query;
+  simpleChat: (text) -> (Result);
+}

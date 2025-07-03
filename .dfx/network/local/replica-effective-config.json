@@ -1,0 +1,30 @@
+{
+  "replica_rev": "0a6d829cddc1534c29e0d2c3c3ebd1024bff8d1a",
+  "type": "replica",
+  "config": {
+    "http_handler": {
+      "port": null,
+      "write_port_to": "/Users/nickkz/Desktop/Difinity/.dfx/network/local/replica-configuration/replica-1.port"
+    },
+    "state_manager": {
+      "state_root": "/Users/nickkz/Desktop/Difinity/.dfx/network/local/state/replicated_state"
+    },
+    "crypto": {
+      "crypto_root": "/Users/nickkz/Desktop/Difinity/.dfx/network/local/state/crypto_store"
+    },
+    "artifact_pool": {
+      "consensus_pool_path": "/Users/nickkz/Desktop/Difinity/.dfx/network/local/state/consensus_pool"
+    },
+    "subnet_type": "application",
+    "btc_adapter": {
+      "enabled": false,
+      "socket_path": null
+    },
+    "canister_http_adapter": {
+      "enabled": true,
+      "socket_path": "/var/folders/2h/vnf0xd5561l9csptqvxvs6l00000gn/T/ic-https-outcalls-adapter-socket.24291.1751567826"
+    },
+    "log_level": "error",
+    "artificial_delay": 600
+  }
+}
